@@ -8,10 +8,7 @@ const NUM_TOKENS = 32
 const TOKEN_BASE = 1
 
 const IMG_URL_BASE =
-      "https://show.robmyers.org/tokens-equal-text"
-const SHOW_URL_BASE =
-      "https://show.robmyers.org/tokens-equal-text/app/index.html"
-
+      "ipfs://Qmavu1wg3sN8gF811ZUdn4uw41F1yR9xu7dnhTNer1pzYC"
 
 /*let main = async () => {
   const imgResults = await ipfs.addFromFs(
@@ -26,8 +23,7 @@ const SHOW_URL_BASE =
     const filePath = `./metadata/${tokenNum}`
     fs.writeFileSync(filePath, `{
 "description": "A composable token that owns children with aesthetic IDs.",
-"external_url": "${SHOW_URL_BASE}#${tokenNum}",
-"image": "${IMG_URL_BASE}/${imageDir}/${tokenNum}.png",
+"image": "${IMG_URL_BASE}/${tokenNum}.png",
 "name": "Tokens Equal Text ${tokenNum}"
 }`  )
   }

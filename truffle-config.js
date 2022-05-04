@@ -22,7 +22,7 @@
  *
  */
 
-const HDWalletProvider = require('truffle-hdwallet-provider');
+//const HDWalletProvider = require('truffle-hdwallet-provider');
 
 module.exports = {
   /**
@@ -49,7 +49,7 @@ module.exports = {
        gas: 6700000,           // Gas sent with each transaction (default: ~6700000)
      },
 
-    rinkeby: {
+    /*rinkeby: {
       provider: () => new HDWalletProvider(process.env.MNEMONIC, `https://rinkeby.infura.io/v3/${process.env.INFURA_RINKEBY_PROJECT_ID}`),
       network_id: 4,        // Rinkeby's id
       //gasPrice: 5000000000, // 5 Gwei
@@ -85,7 +85,7 @@ module.exports = {
       gasPrice: 10000000000,  // 10 gwei (in wei) (default: 100 gwei)
       // websockets: true,        // Enable EventEmitter interface for web3 (default: false)
       timeoutBlocks: 200,   // # of blocks before a deployment times out  (minimum/default: 50)
-    },
+    },*/
 
     // Useful for private networks
     // private: {
